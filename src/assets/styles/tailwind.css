@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+  body {
+    @apply font-body text-cnn-lightBlack;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
