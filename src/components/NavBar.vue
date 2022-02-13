@@ -1,6 +1,6 @@
 <template>
   <header class="bg-cnn-black">
-    <div class="container mx-auto flex justify-between">
+    <div class="container mx-auto flex justify-between max-w-6xl">
       <div class="flex">
         <router-link class="ml-2 text-white text-sm font-normal" to="/">
           <the-logo></the-logo>
@@ -20,7 +20,9 @@
         </div>
       </div>
       <div class="flex items-center text-white">
-        <router-link to="/" class="text-sm tracking-widest flex">LIVE TV</router-link>
+        <router-link to="/" class="text-sm tracking-widest flex items-center">
+          <img class="w-2 h-2 mr-2" src="@/assets/images/live-story-status_dark.gif" alt="Live TV" /> LIVE TV
+        </router-link>
         <div class="relative language ml-6">
           <div class="hidden lg:flex text-sm items-center">
             Edition

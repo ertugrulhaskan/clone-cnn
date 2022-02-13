@@ -9,10 +9,10 @@ module.exports = {
         cnn: {
           white: "#fefefe",
           gray: "#4d4d4d",
+          lightGray: "#d9d9d9",
           black: "#0c0c0c",
           lightBlack: "#262626",
           red: "#cc0000",
-          darkRed: "#01309c",
         },
       },
     },

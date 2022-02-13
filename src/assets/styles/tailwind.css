@@ -8,6 +8,9 @@
   body {
     @apply font-body text-cnn-lightBlack;
   }
+  strong {
+    @apply font-bold;
+  }
 }
 
 @layer components {
