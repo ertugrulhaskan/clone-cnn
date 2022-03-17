@@ -123,6 +123,439 @@
         ]
       }
     ],
-    "card": {}
+    "card": [
+      {
+        "title": "Entertainment",
+        "link": "https://www.cnn.com/entertainment",
+        "image": {
+          "caption": "",
+          "src": "https://cdn.cnn.com/cnnnext/dam/assets/220317081413-volodymyr-zelensky-servant-of-the-people-large-169.jpg"
+        },
+        "newsLink": "#",
+        "body": "Volodymyr Zelensky series streaming on Netflix",
+        "listNews": [
+          {
+            "link": "#",
+            "text": "",
+            "body": "Here's who is presenting at the Oscars so far"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Britney Spears deletes her Instagram account again"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Lisa Kudrow is totally open to the idea of a 'Romy and Michele' sequel"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "'The Gilded Age' reminds us that the Black elite existed and thrived"
+          }
+        ]
+      },
+      {
+        "title": "Politics",
+        "link": "https://www.cnn.com/politics",
+        "image": {
+          "caption": "Analysis",
+          "src": "https://cdn.cnn.com/cnnnext/dam/assets/211013180946-herschel-walker-092521-large-169.jpg"
+        },
+        "newsLink": "#",
+        "body": "Senate candidate Herschel Walker doesn't understand evolution",
+        "listNews": [
+          {
+            "link": "#",
+            "text": "",
+            "body": "US has 'significant' cyber vulnerabilities, but a sweeping Russian cyberattack is unlikely"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Biden marks reauthorization of Violence Against Women Act"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Pence seeks to set himself apart from Trump by speaking out against Putin"
+          }
+        ]
+      },
+      {
+        "title": "Tech",
+        "link": "https://www.cnn.com/tech",
+        "image": {
+          "caption": "",
+          "src": "https://cdn.cnn.com/cnnnext/dam/assets/220314100910-02-facebook-app-stock-large-169.jpeg"
+        },
+        "newsLink": "#",
+        "body": "Facebook and YouTube say they removed Zelensky deepfake",
+        "listNews": [
+          {
+            "link": "#",
+            "text": "",
+            "body": "Instagram is rolling out new parental supervision tools"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Astra's stock takes wild ride after rocket launch"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "VR headsets are headed to your car's backseat"
+          }
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "title": "US",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Crime + Justice",
+            "link": "#"
+          },
+          {
+            "text": "Energy + Environment",
+            "link": "#"
+          },
+          {
+            "text": "Extreme Weather",
+            "link": "#"
+          },
+          {
+            "text": "Space + Science",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "World",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Africa",
+            "link": "#"
+          },
+          {
+            "text": "Americas",
+            "link": "#"
+          },
+          {
+            "text": "Asia",
+            "link": "#"
+          },
+          {
+            "text": "Australia",
+            "link": "#"
+          },
+          {
+            "text": "China",
+            "link": "#"
+          },
+          {
+            "text": "Europe",
+            "link": "#"
+          },
+          {
+            "text": "India",
+            "link": "#"
+          },
+          {
+            "text": "Middle East",
+            "link": "#"
+          },
+          {
+            "text": "United Kingdom",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Politics",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "The Biden Presidency",
+            "link": "#"
+          },
+          {
+            "text": "Facts First",
+            "link": "#"
+          },
+          {
+            "text": "US Elections",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Business",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Markets",
+            "link": "#"
+          },
+          {
+            "text": "Tech",
+            "link": "#"
+          },
+          {
+            "text": "Media",
+            "link": "#"
+          },
+          {
+            "text": "Success",
+            "link": "#"
+          },
+          {
+            "text": "Perspectives",
+            "link": "#"
+          },
+          {
+            "text": "Videos",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Opinion",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Political Op-Eds",
+            "link": "#"
+          },
+          {
+            "text": "Social Commentary",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Health",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Life, But Better",
+            "link": "#"
+          },
+          {
+            "text": "Fitness",
+            "link": "#"
+          },
+          {
+            "text": "Food",
+            "link": "#"
+          },
+          {
+            "text": "Sleep",
+            "link": "#"
+          },
+          {
+            "text": "Mindfulness",
+            "link": "#"
+          },
+          {
+            "text": "Relationships",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Entertainment",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Stars",
+            "link": "#"
+          },
+          {
+            "text": "Screens",
+            "link": "#"
+          },
+          {
+            "text": "Binge",
+            "link": "#"
+          },
+          {
+            "text": "Culture",
+            "link": "#"
+          },
+          {
+            "text": "Media",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Tech",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Innovate",
+            "link": "#"
+          },
+          {
+            "text": "Gadget",
+            "link": "#"
+          },
+          {
+            "text": "Foreseeable Future",
+            "link": "#"
+          },
+          {
+            "text": "Mission: Ahead",
+            "link": "#"
+          },
+          {
+            "text": "Upstarts",
+            "link": "#"
+          },
+          {
+            "text": "Work Transformed",
+            "link": "#"
+          },
+          {
+            "text": "Innovative Cities",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Style",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Arts",
+            "link": "#"
+          },
+          {
+            "text": "Design",
+            "link": "#"
+          },
+          {
+            "text": "Fashion",
+            "link": "#"
+          },
+          {
+            "text": "Architecture",
+            "link": "#"
+          },
+          {
+            "text": "Luxury",
+            "link": "#"
+          },
+          {
+            "text": "Beauty",
+            "link": "#"
+          },
+          {
+            "text": "Video",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Travel",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Destinations",
+            "link": "#"
+          },
+          {
+            "text": "Food and Drink",
+            "link": "#"
+          },
+          {
+            "text": "Stay",
+            "link": "#"
+          },
+          {
+            "text": "News",
+            "link": "#"
+          },
+          {
+            "text": "Videos",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Sports",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Pro Football",
+            "link": "#"
+          },
+          {
+            "text": "College Football",
+            "link": "#"
+          },
+          {
+            "text": "Basketball",
+            "link": "#"
+          },
+          {
+            "text": "Baseball",
+            "link": "#"
+          },
+          {
+            "text": "Soccer",
+            "link": "#"
+          },
+          {
+            "text": "Olympics",
+            "link": "#"
+          },
+          {
+            "text": "Hockey",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "link": "#",
+        "listLink": [
+          {
+            "text": "Live TV",
+            "link": "#"
+          },
+          {
+            "text": "Digital Studios",
+            "link": "#"
+          },
+          {
+            "text": "CNN Films",
+            "link": "#"
+          },
+          {
+            "text": "HLN",
+            "link": "#"
+          },
+          {
+            "text": "TV Schedule",
+            "link": "#"
+          },
+          {
+            "text": "TV Shows A-Z",
+            "link": "#"
+          },
+          {
+            "text": "CNNVR",
+            "link": "#"
+          }
+        ]
+      }
+    ]
   }
 }

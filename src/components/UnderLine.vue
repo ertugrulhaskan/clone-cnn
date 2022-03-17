@@ -29,6 +29,7 @@ import { computed } from "vue";
 import { useStore } from "vuex";
 
 export default {
+  name: "UnderLine",
   props: {
     newsIdx: {
       type: Number,

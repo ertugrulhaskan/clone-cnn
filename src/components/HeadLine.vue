@@ -23,8 +23,8 @@
             >
           </template>
           <template v-else>
-            <a :href="item.link" class="flex items-center">
-              <em class="block w-4 h-4 mr-2">
+            <a :href="item.link" class="flex">
+              <em class="block w-8 h-8 mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
                   <path fill="none" d="M0 0h48v48H0z" />
                   <path
@@ -46,6 +46,7 @@ import { computed } from "vue";
 import { useStore } from "vuex";
 
 export default {
+  name: "HeadLine",
   setup() {
     const store = useStore();
 

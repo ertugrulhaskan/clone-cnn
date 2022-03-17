@@ -6,54 +6,50 @@
           <the-logo></the-logo>
         </router-link>
         <div class="hidden text-white lg:flex lg:items-center">
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">US</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">World</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Politics</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Business</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Opinion</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Health</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Entertainment</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Style</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Travel</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Sports</router-link>
-          <router-link class="ml-2 text-white text-sm font-normal" to="/">Videos</router-link>
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >US</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >World</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Politics</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Business</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Opinion</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Health</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Entertainment</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Style</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Travel</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Sports</router-link
+          >
+          <router-link class="ml-2 text-white text-sm font-normal" to="/"
+            >Videos</router-link
+          >
         </div>
       </div>
       <div class="flex items-center text-white">
         <router-link to="/" class="text-sm tracking-widest flex items-center">
-          <img class="w-2 h-2 mr-2" src="@/assets/images/live-story-status_dark.gif" alt="Live TV" /> LIVE TV
+          <img
+            class="w-2 h-2 mr-2"
+            src="@/assets/images/live-story-status_dark.gif"
+            alt="Live TV"
+          />
+          LIVE TV
         </router-link>
-        <div class="relative language ml-6">
-          <div class="hidden lg:flex text-sm items-center">
-            Edition
-            <div class="w-6 h-6">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="#FFFFFF"
-                xml:space="preserve"
-                viewBox="0 0 29 29"
-              >
-                <path
-                  fill="none"
-                  stroke="#FFFFFF"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
-                  d="m20.5 11.5-6 6-6-6"
-                />
-              </svg>
-            </div>
-          </div>
-          <ul
-            class="hidden absolute top-12 right-0 bg-cnn-white shadow-md rounded-md px-4 py-2 text-cnn-gray text-sm"
-          >
-            <li>U.S</li>
-            <li>International</li>
-            <li>Arabic</li>
-            <li>Español</li>
-          </ul>
-        </div>
         <div class="hidden lg:inline-flex ml-3">
           <div class="w-6 h-6">
             <svg
@@ -87,7 +83,11 @@
         </div>
         <div class="ml-3">
           <div class="w-8 h-8">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 16 16">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#ffffff"
+              viewBox="0 0 16 16"
+            >
               <path
                 fill-rule="evenodd"
                 d="M4.484 4a.5.5 0 0 0 .051 1h6.93a.5.5 0 1 0 0-1h-6.93a.5.5 0 0 0-.05 0zm0 3a.5.5 0 0 0 .051 1h6.93a.5.5 0 1 0 0-1h-6.93a.5.5 0 0 0-.05 0zm0 3a.5.5 0 0 0 .051 1h6.93a.5.5 0 1 0 0-1h-6.93a.5.5 0 0 0-.05 0z"
@@ -95,7 +95,21 @@
                 font-family="sans-serif"
                 font-weight="400"
                 overflow="visible"
-                style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;white-space:normal;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"
+                style="
+                  line-height: normal;
+                  text-indent: 0;
+                  text-align: start;
+                  text-decoration-line: none;
+                  text-decoration-style: solid;
+                  text-decoration-color: #000;
+                  text-transform: none;
+                  block-progression: tb;
+                  white-space: normal;
+                  isolation: auto;
+                  mix-blend-mode: normal;
+                  solid-color: #000;
+                  solid-opacity: 1;
+                "
               />
             </svg>
           </div>
@@ -106,15 +120,13 @@
 </template>
 
 <script>
-import TheLogo from './TheLogo.vue'
+import TheLogo from "./TheLogo.vue";
 
 export default {
   components: { TheLogo },
   name: "NavBar",
-  setup() {
-  }
-}
+  setup() {},
+};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
