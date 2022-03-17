@@ -38,6 +38,91 @@
           "body": "Gunshots rang out as CNN gets look at standoff in East Ukraine"
         }
       ]
-    }
+    },
+    "underline": [
+      {
+        "head": {
+          "body": "Who scored and who fumbled on TV's biggest stage",
+          "src": "https://cdn.cnn.com/cnnnext/dam/assets/220213221336-60-super-bowl-2022-medium-tease.jpg"
+        },
+        "listNews": [
+          {
+            "link": "#",
+            "text": "",
+            "body": "Rams top Bengals in dramatic Super Bowl"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Hear from Rams players on their big victory"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Strange QR-code ad briefly crashes app"
+          }
+        ]
+      },
+      {
+        "head": {
+          "body": "Trudeau becomes first Canadian leader to invoke Emergencies Act",
+          "src": "https://cdn.cnn.com/cnnnext/dam/assets/220214000814-ambassador-bridge-02132022-medium-tease.jpg"
+        },
+        "listNews": [
+          {
+            "link": "#",
+            "text": "",
+            "body": "US truckers frustrated by more than Covid"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "California to keep mask mandate in schools as indoor mandate ends"
+          }
+        ]
+      },
+      {
+        "head": {
+          "body": "Russian court extends US basketball star Brittney Griner's arrest until May 19, reports TASS",
+          "src": "https://cdn.cnn.com/cnnnext/dam/assets/220307080329-01-brittney-griner-file-medium-tease.jpg"
+        },
+        "listNews": [
+          {
+            "link": "#",
+            "text": "",
+            "body": "Griner is the latest American to be detained in Russia as supporters work to free them"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Why so many WNBA stars play basketball overseas"
+          }
+        ]
+      },
+      {
+        "head": {
+          "body": "'Never Again': Zelensky cites post-Holocaust phrase to German lawmakers",
+          "src": "https://cdn.cnn.com/cnnnext/dam/assets/220317102017-01-zelensky-bundestag-031722-medium-tease.jpg"
+        },
+        "listNews": [
+          {
+            "link": "#",
+            "text": "",
+            "body": "Zelensky's speech to US Congress, annotated"
+          },
+          {
+            "link": "#",
+            "text": "Analysis",
+            "body": "How long can Ukraine hold out in the war for the skies?"
+          },
+          {
+            "link": "#",
+            "text": "",
+            "body": "Facebook and YouTube say they removed Zelensky deepfake"
+          }
+        ]
+      }
+    ],
+    "card": {}
   }
 }
