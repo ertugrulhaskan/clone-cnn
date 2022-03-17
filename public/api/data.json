@@ -1,0 +1,43 @@
+{
+  "news": {
+    "headlines": {
+      "head": {
+        "title": "How Russia surrounded Ukraine on three sides",
+        "body": "Russia has created pressure points on multiple fronts. Here's a visual guide to where an invasion could be launched.",
+        "src": "https://cdn.cnn.com/cnnnext/dam/assets/220210143848-02-russia-military-buildup-satellite-images-0210-zyabrovka-large-tease.jpg"
+      },
+      "listNews": [
+        {
+          "link": "#",
+          "text": "",
+          "body": "Biden warns Putin US will react 'decisively and impose swift and severe costs' if Russia invades Ukraine"
+        },
+        {
+          "link": "#",
+          "text": "",
+          "body": "Serbia orders large quantities of food as Ukraine-Russia tensions mount, according to CNN affiliate"
+        },
+        {
+          "link": "#",
+          "text": "Analysis",
+          "body": "What created the new, more aggressive Putin"
+        },
+        {
+          "link": "#",
+          "text": "Opinions",
+          "body": "Ukrainians aren't laughing now"
+        },
+        {
+          "link": "#",
+          "text": "",
+          "body": "This nurse makes house calls near Ukraine's front lines"
+        },
+        {
+          "link": "#",
+          "text": "Video",
+          "body": "Gunshots rang out as CNN gets look at standoff in East Ukraine"
+        }
+      ]
+    }
+  }
+}
