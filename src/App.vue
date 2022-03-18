@@ -19,8 +19,7 @@ export default {
     // Methods
     function fetchNews() {
       axios.get("/api").then(({ data }) => {
-        debugger;
-        store.state.news = data;
+        store.state.news = data.news;
       });
     }
 
