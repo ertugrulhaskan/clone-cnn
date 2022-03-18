@@ -18,7 +18,7 @@ export default {
     const store = useStore();
     // Methods
     function fetchNews() {
-      axios.get("http://localhost:3000/news").then(({ data }) => {
+      axios.get("/api").then(({ data }) => {
         store.state.news = data;
       });
     }
