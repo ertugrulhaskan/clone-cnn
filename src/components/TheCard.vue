@@ -2,7 +2,7 @@
   <div>
     <a
       :href="card.link"
-      class="title h-9 flex justify-between text-cnn-lightBlack bg-cnn-silver font-semibold"
+      class="title flex h-9 justify-between bg-cnn-silver font-semibold text-cnn-lightBlack"
       ><h2 class="p-2">{{ card.title }}</h2>
       <div class="w-9 bg-cnn-lightGray">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -33,10 +33,10 @@
     </a>
     <a :href="card.newsLink">
       <figure class="relative">
-        <img :src="card.image.src" :alt="card.title" />
+        <img :src="card.image.src" :alt="card.title" class="object-contain" />
         <figcaption
           v-if="card.image.caption"
-          class="bg-cnn-black absolute left-0 bottom-0 p-2 text-cnn-white"
+          class="absolute left-0 bottom-0 bg-cnn-black p-2 text-cnn-white"
         >
           {{ card.image.caption }}
         </figcaption>

@@ -1,57 +1,34 @@
 <template>
   <header class="bg-cnn-black">
-    <div class="container mx-auto flex justify-between max-w-6xl">
+    <div class="container mx-auto flex max-w-6xl justify-between">
       <div class="flex">
-        <router-link class="ml-2 text-white text-sm font-normal" to="/">
+        <router-link class="ml-2 text-sm font-normal text-white" to="/">
           <the-logo></the-logo>
         </router-link>
         <div class="hidden text-white lg:flex lg:items-center">
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >US</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >World</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Politics</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Business</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Opinion</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Health</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Entertainment</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Style</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Travel</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Sports</router-link
-          >
-          <router-link class="ml-2 text-white text-sm font-normal" to="/"
-            >Videos</router-link
+          <router-link
+            v-for="(item, idx) of menu"
+            :key="`header-menu-${idx}`"
+            class="ml-2 text-sm font-normal text-white"
+            :to="item.link"
+            >{{ item.title }}</router-link
           >
         </div>
       </div>
       <div class="flex items-center text-white">
-        <router-link to="/" class="text-sm tracking-widest flex items-center">
+        <router-link
+          to="/"
+          class="hidden items-center text-sm tracking-widest lg:flex"
+        >
           <img
-            class="w-2 h-2 mr-2"
+            class="mr-2 h-2 w-2"
             src="@/assets/images/live-story-status_dark.gif"
             alt="Live TV"
           />
           LIVE TV
         </router-link>
-        <div class="hidden lg:inline-flex ml-3">
-          <div class="w-6 h-6">
+        <div class="ml-3 hidden lg:inline-flex">
+          <div class="h-6 w-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xml:space="preserve"
@@ -68,7 +45,7 @@
           </div>
         </div>
         <div class="ml-3">
-          <div class="w-6 h-6">
+          <div class="h-6 w-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="#ffffff"
@@ -82,7 +59,7 @@
           </div>
         </div>
         <div class="ml-3">
-          <div class="w-8 h-8">
+          <div class="h-8 w-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="#ffffff"
@@ -120,12 +97,24 @@
 </template>
 
 <script>
+import { computed } from "vue";
+import { useStore } from "vuex";
 import TheLogo from "./TheLogo.vue";
 
 export default {
   components: { TheLogo },
   name: "NavBar",
-  setup() {},
+  setup() {
+    const store = useStore();
+
+    const menu = computed(() => {
+      return store.state.news.menu.filter((item) => item.isShowingHeader);
+    });
+
+    return {
+      menu,
+    };
+  },
 };
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <section>
     <article class="relative">
-      <h2 class="text-4xl mb-2 font-medium text-center">
+      <h2 class="mb-2 text-center text-4xl font-medium">
         <a href="#">{{ headlines.head.title }}</a>
       </h2>
       <a href="#">
@@ -24,7 +24,7 @@
           </template>
           <template v-else>
             <a :href="item.link" class="flex">
-              <em class="block w-8 h-8 mr-2">
+              <em class="mr-2 block h-8 w-8">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
                   <path fill="none" d="M0 0h48v48H0z" />
                   <path

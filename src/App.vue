@@ -1,5 +1,5 @@
 <template>
-  <nav-bar></nav-bar>
+  <nav-bar v-if="$store.state.news !== null"></nav-bar>
   <router-view />
 </template>
 

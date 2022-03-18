@@ -211,10 +211,11 @@
         ]
       }
     ],
-    "footer": [
+    "menu": [
       {
         "title": "US",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Crime + Justice",
@@ -237,6 +238,7 @@
       {
         "title": "World",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Africa",
@@ -279,6 +281,7 @@
       {
         "title": "Politics",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "The Biden Presidency",
@@ -297,6 +300,7 @@
       {
         "title": "Business",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Markets",
@@ -327,6 +331,7 @@
       {
         "title": "Opinion",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Political Op-Eds",
@@ -341,6 +346,7 @@
       {
         "title": "Health",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Life, But Better",
@@ -371,6 +377,7 @@
       {
         "title": "Entertainment",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Stars",
@@ -397,6 +404,7 @@
       {
         "title": "Tech",
         "link": "#",
+        "isShowingHeader": false,
         "listLink": [
           {
             "text": "Innovate",
@@ -431,6 +439,7 @@
       {
         "title": "Style",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Arts",
@@ -465,6 +474,7 @@
       {
         "title": "Travel",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Destinations",
@@ -491,6 +501,7 @@
       {
         "title": "Sports",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Pro Football",
@@ -525,6 +536,7 @@
       {
         "title": "Videos",
         "link": "#",
+        "isShowingHeader": true,
         "listLink": [
           {
             "text": "Live TV",

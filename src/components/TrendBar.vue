@@ -1,12 +1,8 @@
 <template>
-  <div class="container mx-auto pt-4 max-w-6xl hidden lg:block">
-    <ul class="flex justify-center text-sm m-auto">
-      <li>
-        <strong>PODCAST:</strong> Axe Files
-      </li>
-      <li>
-        <strong>TRENDING:</strong> Biden and Putin
-      </li>
+  <div class="container mx-auto hidden max-w-6xl pt-4 lg:block">
+    <ul class="m-auto flex justify-center text-sm">
+      <li><strong>PODCAST:</strong> Axe Files</li>
+      <li><strong>TRENDING:</strong> Biden and Putin</li>
       <li>Super Bowl ticket prices</li>
       <li>Canadian truckers</li>
       <li>Potato perfume</li>
@@ -17,12 +13,9 @@
 </template>
 
 <script>
-
 export default {
-  setup() {
-
-  }
-}
+  setup() {},
+};
 </script>
 
 <style lang="scss" scoped>
@@ -30,6 +23,6 @@ strong {
   @apply text-cnn-red;
 }
 li {
-  @apply border-r-2 border-cnn-lightGray pr-2 mr-2;
+  @apply mr-2 border-r-2 border-cnn-lightGray pr-2;
 }
 </style>

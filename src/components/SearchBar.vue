@@ -1,18 +1,18 @@
 <template>
-  <form class="relative search-bar-wrapper">
+  <form class="search-bar-wrapper relative">
     <input
       type="text"
       name="txtSearch"
       id="txtSearch"
       placeholder="Search CNN..."
-      class="w-full px-2 h-9 rounded-[3px] border border-cnn-lightBlack text-cnn-black placeholder:text-cnn-black focus:outline-none"
+      class="h-9 w-full rounded-[3px] border border-cnn-lightBlack px-2 text-cnn-black placeholder:text-cnn-black focus:outline-none"
     />
     <button
       type="submit"
-      class="flex absolute right-3 top-[5px] text-cnn-black font-semibold items-center"
+      class="absolute right-3 top-[5px] flex items-center font-semibold text-cnn-black"
     >
       Search
-      <div class="w-4 ml-2">
+      <div class="ml-2 w-4">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
           <switch>
             <g>

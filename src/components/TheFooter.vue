@@ -1,13 +1,17 @@
 <template>
-  <footer class="bg-cnn-black py-20 text-white mt-20">
-    <div class="container mx-auto max-w-6xl">
+  <footer class="mt-5 bg-cnn-black py-5 text-white lg:mt-20 lg:py-20">
+    <div class="container mx-auto lg:max-w-6xl">
       <search-bar></search-bar>
-      <nav class="text-cnn-white mt-5 grid grid-cols-7 gap-3 menu-wrapper">
-        <div v-for="(item, idx) of footerMenu" :key="idx">
-          <h4 class="mb-2 py-2 text-lg font-semibold">
+      <nav
+        class="menu-wrapper mt-5 grid grid-cols-1 gap-3 text-cnn-white lg:grid-cols-7"
+      >
+        <div v-for="(item, idx) of menu" :key="idx">
+          <h4
+            class="text-center text-lg font-semibold lg:mb-2 lg:py-2 lg:text-left"
+          >
             <a :href="item.link">{{ item.title }}</a>
           </h4>
-          <ul>
+          <ul class="hidden lg:block">
             <li
               v-for="(listItem, idx) in item.listLink"
               :key="`menu-${idx}`"
@@ -23,15 +27,19 @@
         </div>
       </nav>
       <div
-        class="flex justify-between text-sm font-semibold items-center my-10 pb-10 border-b border-[#4d4d4d]"
+        class="my-10 flex flex-col items-center justify-between border-t border-[#4d4d4d] pt-10 text-sm font-semibold lg:flex-row lg:border-b lg:pb-10"
       >
-        <router-link class="text-white text-sm font-normal" to="/">
+        <router-link class="text-sm font-normal text-white" to="/">
           <the-logo></the-logo>
         </router-link>
-        <div class="flex social-media">
-          <div class="border-r border-[#4d4d4d] mr-4 pr-4">FOLLOW CNN</div>
+        <div class="social-media flex flex-col lg:flex-row">
+          <div
+            class="my-4 text-center lg:my-0 lg:mr-4 lg:border-r lg:border-[#4d4d4d] lg:pr-4 lg:text-left"
+          >
+            FOLLOW CNN
+          </div>
           <div class="icons flex">
-            <a href="#" class="w-6 mr-4">
+            <a href="#" class="mr-4 w-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 data-name="Layer 1"
@@ -42,7 +50,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="w-6 mr-4">
+            <a href="#" class="mr-4 w-6">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <g data-name="&lt;Group&gt;">
                   <path
@@ -70,7 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="copyright text-sm text-white">
+      <div class="copyright text-center text-sm text-white lg:text-left">
         This website is not related with CNN Website. Just created for a website
         project. If you want to visit to
         <a href="https://www.cnn.com" class="text-underline"
@@ -92,10 +100,10 @@ export default {
   setup() {
     const store = useStore();
 
-    const footerMenu = computed(() => store.state.news.footer);
+    const menu = computed(() => store.state.news.menu);
 
     return {
-      footerMenu,
+      menu,
     };
   },
   components: { SearchBar, TheLogo },

@@ -57,7 +57,7 @@ li {
   a {
     @apply border-b-2 border-cnn-lightGray;
     &:hover {
-      @apply text-cnn-red border-none;
+      @apply border-none text-cnn-red;
     }
   }
 }

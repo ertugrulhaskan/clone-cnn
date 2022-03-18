@@ -1,7 +1,7 @@
 <template>
   <svg
     class="cnn-badge-icon"
-    style="outline:0"
+    style="outline: 0"
     width="40"
     height="40"
     viewBox="0 0 240 240"

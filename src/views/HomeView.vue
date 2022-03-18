@@ -4,11 +4,11 @@
     class="container mx-auto max-w-6xl p-4 lg:p-0 lg:pt-4"
     v-if="$store.state.news !== null"
   >
-    <div class="flex">
-      <head-line class="w-[450px] mr-5"></head-line>
-      <div class="grow">
-        <div class="flex">
-          <div class="basis-1/2 mr-2">
+    <div class="grid grid-cols-1 lg:flex">
+      <head-line class="lg:mr-5 lg:max-w-[450px]"></head-line>
+      <div class="lg:grow">
+        <div class="lg:flex">
+          <div class="mr-2 basis-1/2">
             <under-line newsIdx="0"></under-line>
             <under-line newsIdx="1"></under-line>
           </div>
@@ -20,7 +20,9 @@
       </div>
     </div>
     <div class="divider"></div>
-    <div class="grid gap-5 grid-cols-3">
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:gap-5"
+    >
       <the-card newsIdx="0"></the-card>
       <the-card newsIdx="1"></the-card>
       <the-card newsIdx="2"></the-card>
@@ -63,7 +65,7 @@ a {
   &::before,
   &::after {
     content: " ";
-    @apply block h-[4px] w-full bg-cnn-lightGray mb-[1px];
+    @apply mb-[1px] block h-[4px] w-full bg-cnn-lightGray;
   }
 }
 </style>
