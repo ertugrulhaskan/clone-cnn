@@ -1,29 +1,9 @@
-# clone-cnn
+# CNN Website
 
-## Project setup
+## What was the my task?
 
-```
-npm install
-```
+Creating clone a news website
 
-### Compiles and hot-reloads for development
+## What did I do?
 
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+For me, TailwindCSS is the new Bootstrap. I coded a news homepage using TailwindCSS. I worked on some details but I ​couldn't​ lose a lot of time on it.
